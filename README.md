@@ -132,14 +132,14 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/f9209f3a-fbd8-4693-a325-0c41d00cc340" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/3c343f46-54a4-4c6b-adbd-26fe88fb7bf3" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/6d660003-7f3c-4358-8604-53dba1e46843" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/0ff8e4cf-c070-4d78-9bd2-3c15b3eee384" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/c654b9ed-e293-41e0-b11a-48d55b058bc4" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/7e724d15-64bd-4a84-a21b-a6e4320b7bf2" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/769c7ccf-bbe9-415a-afbd-03ecf8a43258" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/a297f1ba-ac9c-4280-b8f1-25cc2b5e4985" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/f9209f3a-fbd8-4693-a325-0c41d00cc340" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/3c343f46-54a4-4c6b-adbd-26fe88fb7bf3" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/6d660003-7f3c-4358-8604-53dba1e46843" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/0ff8e4cf-c070-4d78-9bd2-3c15b3eee384" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/c654b9ed-e293-41e0-b11a-48d55b058bc4" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/7e724d15-64bd-4a84-a21b-a6e4320b7bf2" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/769c7ccf-bbe9-415a-afbd-03ecf8a43258" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/a297f1ba-ac9c-4280-b8f1-25cc2b5e4985" />
 
 ### 6. Windows Endpoint Integration
 - Deployed the Wazuh Agent on Windows 10.
@@ -150,12 +150,12 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/0332bfc1-b1cc-40fc-80eb-bc0d1cfbf6b3" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/9cbbc654-8bb5-4902-94cb-72e42e3e473a" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/a0db8c9b-8bff-4c30-85a0-63b5a167c793" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/20eedef3-f553-4a2e-8cb6-2e1f5425d7d2" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/31b48a42-8e18-4895-913f-6871b3b5b3ef" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/aba4d42f-37ea-45a5-862b-120bacf6e678" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/0332bfc1-b1cc-40fc-80eb-bc0d1cfbf6b3" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/9cbbc654-8bb5-4902-94cb-72e42e3e473a" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/a0db8c9b-8bff-4c30-85a0-63b5a167c793" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/20eedef3-f553-4a2e-8cb6-2e1f5425d7d2" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/31b48a42-8e18-4895-913f-6871b3b5b3ef" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/aba4d42f-37ea-45a5-862b-120bacf6e678" />
 
 
 ### 7. Linux Endpoint Integration
@@ -167,11 +167,11 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/47d3fc28-0ead-4c8b-97c0-de93e30c09ea" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/3a05e364-fa07-4d38-b4d8-5f5cdd0903c7" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/be7ade1d-05ae-4b46-a9a3-c28f06dbfafe" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/9bba7970-4db4-402f-8568-c46c7ab7e3fb" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/ba01eb2e-3d37-4713-8ea1-bef0b480e6e7" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/47d3fc28-0ead-4c8b-97c0-de93e30c09ea" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/3a05e364-fa07-4d38-b4d8-5f5cdd0903c7" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/be7ade1d-05ae-4b46-a9a3-c28f06dbfafe" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/9bba7970-4db4-402f-8568-c46c7ab7e3fb" />
+<img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/ba01eb2e-3d37-4713-8ea1-bef0b480e6e7" />
 
 
 ### 8. Sysmon for Windows
@@ -182,15 +182,15 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/9170c662-39a8-452b-a5cf-1bb8f4c0494f" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/9ae1e4ec-ca12-46f9-8787-dd2c2208d370" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/de2fc9dd-d472-4000-bcea-17ca53a08033" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/44df5736-9c53-4f0b-8336-d8818a4e7a80" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/23378f3f-ee39-4df8-9d02-d93eb9ad4665" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/b01b28b9-fbcd-4676-a97f-b9c529560832" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/26b47fb3-56d2-45db-a7bd-e99e3123c2a5" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/25523ebd-39a1-48c3-8d92-73544e576f7d" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/83e39a1a-e446-4cec-939b-1a105b20bc6c" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/9170c662-39a8-452b-a5cf-1bb8f4c0494f" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/9ae1e4ec-ca12-46f9-8787-dd2c2208d370" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/de2fc9dd-d472-4000-bcea-17ca53a08033" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/44df5736-9c53-4f0b-8336-d8818a4e7a80" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/23378f3f-ee39-4df8-9d02-d93eb9ad4665" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/b01b28b9-fbcd-4676-a97f-b9c529560832" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/26b47fb3-56d2-45db-a7bd-e99e3123c2a5" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/25523ebd-39a1-48c3-8d92-73544e576f7d" />
+<img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/83e39a1a-e446-4cec-939b-1a105b20bc6c" />
 
 
 ### 9. Wazuh Sysmon Integration
@@ -207,12 +207,12 @@ Microsoft-Windows-Sysmon/Operational
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/00062929-0890-4cd4-8d3a-6deeff84dc14" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/ab638d30-b38d-4fe3-a01e-9c96c2882fe3" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/694cd7db-0b2a-48ac-b3a4-0ecb1f40868d" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/f97ed59c-59fb-4c8c-b2fb-b3a59888845a" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/2f9b3f1e-8910-45e2-8433-d2557ac53512" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/30c38c76-6a21-4025-8396-ab1c2a5f4354" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/00062929-0890-4cd4-8d3a-6deeff84dc14" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/ab638d30-b38d-4fe3-a01e-9c96c2882fe3" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/694cd7db-0b2a-48ac-b3a4-0ecb1f40868d" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/f97ed59c-59fb-4c8c-b2fb-b3a59888845a" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/2f9b3f1e-8910-45e2-8433-d2557ac53512" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/30c38c76-6a21-4025-8396-ab1c2a5f4354" />
 
 
 ### 10. Sysmon for Linux
@@ -224,12 +224,12 @@ Microsoft-Windows-Sysmon/Operational
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/71c45599-1156-4dca-8019-4d7a3f6fb29d" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/05b02680-a23e-4479-b7f0-4b80f56234bc" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/50a2205f-62f1-4077-b929-e97c9009102c" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/20c70bcc-a7fb-41cc-a512-c43983a26a52" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/f128e7ea-8bd9-48bd-96ac-2feeb75510ba" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/a99fdcec-1fa8-4062-8e0b-d7b45255de29" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/befcfb4f-5481-441c-97c6-5c5b4ad1d14a" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/71c45599-1156-4dca-8019-4d7a3f6fb29d" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/05b02680-a23e-4479-b7f0-4b80f56234bc" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/50a2205f-62f1-4077-b929-e97c9009102c" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/20c70bcc-a7fb-41cc-a512-c43983a26a52" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/f128e7ea-8bd9-48bd-96ac-2feeb75510ba" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/a99fdcec-1fa8-4062-8e0b-d7b45255de29" />
+<img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/befcfb4f-5481-441c-97c6-5c5b4ad1d14a" />
 
 
