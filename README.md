@@ -73,7 +73,7 @@ Key areas covered:
 
 📌 Refer to the below screenshot:
 
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/2467c5e9-c3d4-41e0-96d7-5c4f93e9e131" />
+<img width="785" height="450" alt="image" src="https://github.com/user-attachments/assets/2467c5e9-c3d4-41e0-96d7-5c4f93e9e131" />
 
 ### 2. Wazuh Platform Deployment
 - Installed Wazuh using the official installation script:
