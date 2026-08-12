@@ -99,7 +99,7 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 📌 Refer to the below screenshot:
 
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/e5c540e6-99bf-40c1-a2d6-e957be6b6575" />
+<img width="785" height="450" alt="image" src="https://github.com/user-attachments/assets/e5c540e6-99bf-40c1-a2d6-e957be6b6575" />
 
 ### 4. Wazuh Archive Configuration
 - Enabled full telemetry collection by modifying:
@@ -116,12 +116,12 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 📌 Refer to the below screenshots: (left to right)
 
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/ccd61148-99e4-4394-80e8-a9992ddfedf2" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/c9dffe55-fb17-4422-bbe7-55a1e30f41ad" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/fd4ab041-852f-41b9-930e-3170e18bb3ed" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/95be5bf2-9f0c-4ef9-9bba-2fc2bdb2accc" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/c95fc332-c320-48b6-8269-db9399f69d9d" />
-<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/f8bd5dac-8f8c-4461-88c9-e79d53f5e83f" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/ccd61148-99e4-4394-80e8-a9992ddfedf2" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/c9dffe55-fb17-4422-bbe7-55a1e30f41ad" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/fd4ab041-852f-41b9-930e-3170e18bb3ed" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/95be5bf2-9f0c-4ef9-9bba-2fc2bdb2accc" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/c95fc332-c320-48b6-8269-db9399f69d9d" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/f8bd5dac-8f8c-4461-88c9-e79d53f5e83f" />
 <img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/966d1e05-2b52-4071-8b55-a557eaa0b229" />
 <img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/d11086df-c55c-4e46-9518-6c6484e77eaa" />
 
