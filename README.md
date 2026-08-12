@@ -88,7 +88,7 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/25aa62fb-588a-4732-b2a6-ba81b96b8f0c" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/c74b30cb-0683-4856-a29a-46082a890462" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/ae6ba271-a308-4f2f-ab97-dae35e9c82e5" />
-<img width="780" height="230" alt="image" src="https://github.com/user-attachments/assets/7f2f9262-0aaa-49e3-9657-6e3df1ec864e" />
+<img width="785" height="230" alt="image" src="https://github.com/user-attachments/assets/7f2f9262-0aaa-49e3-9657-6e3df1ec864e" />
 
 
 ### 3. Wazuh Credential Management
