@@ -73,6 +73,11 @@ Key areas covered:
 - Installed VMware Tools.
 - Created VM snapshots for recovery and rollback.
 
+###📌 Refer to the below screenshot:
+
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/3091da7f-3a9b-44b8-a2ca-2a56c3bcd3ae" />
+
+
 ### 2. Wazuh Platform Deployment
 - Installed Wazuh using the official installation script:
 ```KQL Query:
