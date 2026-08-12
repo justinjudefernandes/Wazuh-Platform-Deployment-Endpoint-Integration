@@ -73,7 +73,7 @@ Key areas covered:
 
 📌 Refer to the below screenshot:
 
-<img width="975" height="582" alt="image" src="https://github.com/user-attachments/assets/2467c5e9-c3d4-41e0-96d7-5c4f93e9e131" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/2467c5e9-c3d4-41e0-96d7-5c4f93e9e131" />
 
 ### 2. Wazuh Platform Deployment
 - Installed Wazuh using the official installation script:
@@ -82,13 +82,13 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 ```
 - Configured and accessed the Wazuh Dashboard following the successful installation.
 
-📌 Refer to the below screenshots: (from left to right)
+📌 Refer to the below screenshots: (left to right)
 
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/21610abb-e8a7-466e-87eb-2be112bbffd9" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/25aa62fb-588a-4732-b2a6-ba81b96b8f0c" />
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/c74b30cb-0683-4856-a29a-46082a890462" />
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/ae6ba271-a308-4f2f-ab97-dae35e9c82e5" />
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/7f2f9262-0aaa-49e3-9657-6e3df1ec864e" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/21610abb-e8a7-466e-87eb-2be112bbffd9" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/25aa62fb-588a-4732-b2a6-ba81b96b8f0c" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/c74b30cb-0683-4856-a29a-46082a890462" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/ae6ba271-a308-4f2f-ab97-dae35e9c82e5" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/7f2f9262-0aaa-49e3-9657-6e3df1ec864e" />
 
 
 ### 3. Wazuh Credential Management
@@ -99,7 +99,7 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 📌 Refer to the below screenshots:
 
-<img width="975" height="578" alt="image" src="https://github.com/user-attachments/assets/e5c540e6-99bf-40c1-a2d6-e957be6b6575" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/e5c540e6-99bf-40c1-a2d6-e957be6b6575" />
 
 ### 4. Wazuh Archive Configuration
 - Enabled full telemetry collection by modifying:
@@ -114,22 +114,32 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 - Restarted the Wazuh Manager service.
 - Configured Filebeat archives and enabled the archive collection functionality.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshots: (left to right)
 
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/ccd61148-99e4-4394-80e8-a9992ddfedf2" />
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/c9dffe55-fb17-4422-bbe7-55a1e30f41ad" />
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/fd4ab041-852f-41b9-930e-3170e18bb3ed" />
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/95be5bf2-9f0c-4ef9-9bba-2fc2bdb2accc" />
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/c95fc332-c320-48b6-8269-db9399f69d9d" />
-<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/f8bd5dac-8f8c-4461-88c9-e79d53f5e83f" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/ccd61148-99e4-4394-80e8-a9992ddfedf2" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/c9dffe55-fb17-4422-bbe7-55a1e30f41ad" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/fd4ab041-852f-41b9-930e-3170e18bb3ed" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/95be5bf2-9f0c-4ef9-9bba-2fc2bdb2accc" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/c95fc332-c320-48b6-8269-db9399f69d9d" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/f8bd5dac-8f8c-4461-88c9-e79d53f5e83f" />
 <img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/966d1e05-2b52-4071-8b55-a557eaa0b229" />
 <img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/d11086df-c55c-4e46-9518-6c6484e77eaa" />
-
 
 ### 5. Wazuh Archives Index
 - Created the wazuh-archives index pattern through the Wazuh Dashboard.
 - Configured the timestamp field as the time field and verified archived events.
 - Successfully confirmed that endpoint telemetry was being indexed and searchable.
+
+📌 Refer to the below screenshots: (left to right)
+
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/f9209f3a-fbd8-4693-a325-0c41d00cc340" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/3c343f46-54a4-4c6b-adbd-26fe88fb7bf3" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/6d660003-7f3c-4358-8604-53dba1e46843" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/0ff8e4cf-c070-4d78-9bd2-3c15b3eee384" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/c654b9ed-e293-41e0-b11a-48d55b058bc4" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/7e724d15-64bd-4a84-a21b-a6e4320b7bf2" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/769c7ccf-bbe9-415a-afbd-03ecf8a43258" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/a297f1ba-ac9c-4280-b8f1-25cc2b5e4985" />
 
 ### 6. Windows Endpoint Integration
 - Deployed the Wazuh Agent on Windows 10.
