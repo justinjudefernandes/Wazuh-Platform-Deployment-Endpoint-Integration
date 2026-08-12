@@ -20,9 +20,7 @@ Key areas covered:
 - Integration capabilities with Splunk, OpenSearch, VirusTotal, YARA and Suricata
 
 ## 🖥️ Lab Setup:
-<img width="1536" height="1024" alt="Lab Setup" src="https://github.com/user-attachments/assets/9044cc9f-6b50-4366-94a5-ed68fdccafed" />
-<img width="974" height="355" alt="image" src="https://github.com/user-attachments/assets/158dae1d-297f-4f66-a3c1-0cfd1481b748" />
-<img width="974" height="355" alt="image" src="https://github.com/user-attachments/assets/cfe4a396-3ba3-430a-a280-ab46c1f694d0" />
+<img width="1000" height="600" alt="Lab Setup" src="https://github.com/user-attachments/assets/9044cc9f-6b50-4366-94a5-ed68fdccafed" />
 
 ## 🧰 Tools Used:
 - VMware Workstation Pro
@@ -84,11 +82,24 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 ```
 - Configured and accessed the Wazuh Dashboard following the successful installation.
 
+📌 Refer to the below screenshots: (from left to right)
+
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/21610abb-e8a7-466e-87eb-2be112bbffd9" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/25aa62fb-588a-4732-b2a6-ba81b96b8f0c" />
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/c74b30cb-0683-4856-a29a-46082a890462" />
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/ae6ba271-a308-4f2f-ab97-dae35e9c82e5" />
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/7f2f9262-0aaa-49e3-9657-6e3df1ec864e" />
+
+
 ### 3. Wazuh Credential Management
 - Located the generated Wazuh installation files.
 - Extracted wazuh-install-files.tar.
 - Accessed wazuh-passwords.txt.
 - Verified the generated administrative credentials.
+
+📌 Refer to the below screenshots:
+
+<img width="975" height="578" alt="image" src="https://github.com/user-attachments/assets/e5c540e6-99bf-40c1-a2d6-e957be6b6575" />
 
 ### 4. Wazuh Archive Configuration
 - Enabled full telemetry collection by modifying:
@@ -102,6 +113,18 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 ```
 - Restarted the Wazuh Manager service.
 - Configured Filebeat archives and enabled the archive collection functionality.
+
+📌 Refer to the below screenshots:
+
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/ccd61148-99e4-4394-80e8-a9992ddfedf2" />
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/c9dffe55-fb17-4422-bbe7-55a1e30f41ad" />
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/fd4ab041-852f-41b9-930e-3170e18bb3ed" />
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/95be5bf2-9f0c-4ef9-9bba-2fc2bdb2accc" />
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/c95fc332-c320-48b6-8269-db9399f69d9d" />
+<img width="330" height="230" alt="image" src="https://github.com/user-attachments/assets/f8bd5dac-8f8c-4461-88c9-e79d53f5e83f" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/966d1e05-2b52-4071-8b55-a557eaa0b229" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/d11086df-c55c-4e46-9518-6c6484e77eaa" />
+
 
 ### 5. Wazuh Archives Index
 - Created the wazuh-archives index pattern through the Wazuh Dashboard.
