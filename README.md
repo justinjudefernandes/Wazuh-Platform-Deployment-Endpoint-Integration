@@ -78,69 +78,65 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 ```
 - Configured and accessed the Wazuh Dashboard following the successful installation.
 
-3. Wazuh Credential Management
-Located the generated Wazuh installation files.
-Extracted wazuh-install-files.tar.
-Accessed wazuh-passwords.txt.
-Verified the generated administrative credentials.
-5. Wazuh Archive Configuration
+### 3. Wazuh Credential Management
+- Located the generated Wazuh installation files.
+- Extracted wazuh-install-files.tar.
+- Accessed wazuh-passwords.txt.
+- Verified the generated administrative credentials.
 
-Enabled full telemetry collection by modifying:
-
+### 4. Wazuh Archive Configuration
+- Enabled full telemetry collection by modifying:
+```KQL Query:
 /var/ossec/etc/ossec.conf
-
-Configured:
-
+```
+- Configured:
+```KQL Query:
 <logall>yes</logall>
 <logall_json>yes</logall_json>
+```
+- Restarted the Wazuh Manager service.
+- Configured Filebeat archives and enabled the archive collection functionality.
 
-Restarted the Wazuh Manager service.
+### 5. Wazuh Archives Index
+- Created the wazuh-archives index pattern through the Wazuh Dashboard.
+- Configured the timestamp field as the time field and verified archived events.
+- Successfully confirmed that endpoint telemetry was being indexed and searchable.
 
-Configured Filebeat archives and enabled the archive collection functionality.
+### 6. Windows Endpoint Integration
+- Deployed the Wazuh Agent on Windows 10.
+- Configured the Wazuh Server IP and endpoint name.
+- Installed the agent using the generated PowerShell command.
+- Started the Wazuh Agent service.
+- Verified successful endpoint registration in the Wazuh Dashboard.
 
-6. Wazuh Archives Index
+### 7. Linux Endpoint Integration
+- Deployed the Wazuh Agent on Ubuntu 24.04.4.
+- Configured the Wazuh Server IP and endpoint name.
+- Installed the DEB AMD64 agent package.
+- Started the Wazuh Agent service.
+- Verified successful Linux endpoint registration.
 
-Created the wazuh-archives index pattern through the Wazuh Dashboard.
+### 8. Sysmon for Windows
+- Downloaded Microsoft Sysmon.
+- Obtained and configured a Sysmon configuration file.
+- Installed Sysmon using an elevated PowerShell session.
+- Verified the Sysmon service was running.
+- Identified the Windows Sysmon event channel through Event Viewer.
 
-Configured the timestamp field as the time field and verified archived events through:
-
-Explore → Discover
-
-Successfully confirmed that endpoint telemetry was being indexed and searchable.
-
-7. Windows Endpoint Integration
-Deployed the Wazuh Agent on Windows 10.
-Configured the Wazuh Server IP and endpoint name.
-Installed the agent using the generated PowerShell command.
-Started the Wazuh Agent service.
-Verified successful endpoint registration in the Wazuh Dashboard.
-8. Linux Endpoint Integration
-Deployed the Wazuh Agent on Ubuntu 24.04.4.
-Configured the Wazuh Server IP and endpoint name.
-Installed the DEB AMD64 agent package.
-Started the Wazuh Agent service.
-Verified successful Linux endpoint registration.
-9. Sysmon for Windows
-Downloaded Microsoft Sysmon.
-Obtained and configured a Sysmon configuration file.
-Installed Sysmon using an elevated PowerShell session.
-Verified the Sysmon service was running.
-Identified the Windows Sysmon event channel through Event Viewer.
-10. Wazuh Sysmon Integration
-
-Modified the Windows Wazuh Agent configuration:
-
+### 9. Wazuh Sysmon Integration
+- Modified the Windows Wazuh Agent configuration:
+```KQL Query:
 C:\Program Files (x86)\ossec-agent\ossec.conf
-
-Configured the agent to collect:
-
+```
+- Configured the agent to collect:
+```KQL Query:
 Microsoft-Windows-Sysmon/Operational
+```
+- Restarted the Wazuh Agent and verified that Sysmon telemetry was successfully forwarded to Wazuh.
 
-Restarted the Wazuh Agent and verified that Sysmon telemetry was successfully forwarded to Wazuh.
-
-11. Sysmon for Linux
-Installed Sysmon for Linux.
-Downloaded the collect-all.xml configuration.
-Configured Sysmon to use the supplied configuration.
-Verified Sysmon events were being written to /var/log/syslog.
-Confirmed Linux Sysmon telemetry was successfully received and displayed in Wazuh.
+### 10. Sysmon for Linux
+- Installed Sysmon for Linux.
+- Downloaded the collect-all.xml configuration.
+- Configured Sysmon to use the supplied configuration.
+- Verified Sysmon events were being written to /var/log/syslog.
+- Confirmed Linux Sysmon telemetry was successfully received and displayed in Wazuh.
