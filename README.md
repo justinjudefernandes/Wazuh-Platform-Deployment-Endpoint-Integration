@@ -176,12 +176,25 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 ### 8. Sysmon for Windows
 - Downloaded Microsoft Sysmon.
-- Obtained and configured a Sysmon configuration file.
+- Obtained and configured a Sysmon configuration file. (Olaf’s 'sysmonconfig.xml' file)
 - Installed Sysmon using an elevated PowerShell session.
 - Verified the Sysmon service was running.
-- Identified the Windows Sysmon event channel through Event Viewer.
+
+📌 Refer to the below screenshots: (left to right)
+
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/9170c662-39a8-452b-a5cf-1bb8f4c0494f" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/9ae1e4ec-ca12-46f9-8787-dd2c2208d370" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/de2fc9dd-d472-4000-bcea-17ca53a08033" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/44df5736-9c53-4f0b-8336-d8818a4e7a80" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/23378f3f-ee39-4df8-9d02-d93eb9ad4665" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/b01b28b9-fbcd-4676-a97f-b9c529560832" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/26b47fb3-56d2-45db-a7bd-e99e3123c2a5" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/25523ebd-39a1-48c3-8d92-73544e576f7d" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/83e39a1a-e446-4cec-939b-1a105b20bc6c" />
+
 
 ### 9. Wazuh Sysmon Integration
+- Identified the Windows Sysmon event channel through Event Viewer.
 - Modified the Windows Wazuh Agent configuration:
 ```KQL Query:
 C:\Program Files (x86)\ossec-agent\ossec.conf
@@ -192,9 +205,31 @@ Microsoft-Windows-Sysmon/Operational
 ```
 - Restarted the Wazuh Agent and verified that Sysmon telemetry was successfully forwarded to Wazuh.
 
+📌 Refer to the below screenshots: (left to right)
+
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/00062929-0890-4cd4-8d3a-6deeff84dc14" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/ab638d30-b38d-4fe3-a01e-9c96c2882fe3" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/694cd7db-0b2a-48ac-b3a4-0ecb1f40868d" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/f97ed59c-59fb-4c8c-b2fb-b3a59888845a" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/2f9b3f1e-8910-45e2-8433-d2557ac53512" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/30c38c76-6a21-4025-8396-ab1c2a5f4354" />
+
+
 ### 10. Sysmon for Linux
 - Installed Sysmon for Linux.
 - Downloaded the collect-all.xml configuration.
 - Configured Sysmon to use the supplied configuration.
 - Verified Sysmon events were being written to /var/log/syslog.
 - Confirmed Linux Sysmon telemetry was successfully received and displayed in Wazuh.
+
+📌 Refer to the below screenshots: (left to right)
+
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/71c45599-1156-4dca-8019-4d7a3f6fb29d" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/05b02680-a23e-4479-b7f0-4b80f56234bc" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/50a2205f-62f1-4077-b929-e97c9009102c" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/20c70bcc-a7fb-41cc-a512-c43983a26a52" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/f128e7ea-8bd9-48bd-96ac-2feeb75510ba" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/a99fdcec-1fa8-4062-8e0b-d7b45255de29" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/befcfb4f-5481-441c-97c6-5c5b4ad1d14a" />
+
+
