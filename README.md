@@ -1,96 +1,84 @@
 # Wazuh SIEM XDR Deployment and Endpoint Integration
 
 ## 🎯 Objective:
-Deploy and configure a Wazuh SIEM/XDR platform and establish centralized security monitoring across Windows and Linux endpoints. The project focused on understanding the Wazuh architecture, deploying the core platform, onboarding endpoints, enabling telemetry collection, and integrating Sysmon for enhanced endpoint visibility.
+Build and configure a Wazuh-based security monitoring environment to understand its SIEM/XDR architecture and establish centralized visibility across Windows and Linux systems. The objective was to deploy the Wazuh platform, onboard endpoints, and integrate Sysmon to enhance security telemetry and endpoint monitoring.
 
 ## 📊 Project Overview:
-Wazuh is an open-source security platform providing SIEM and XDR capabilities, including endpoint monitoring, File Integrity Monitoring (FIM), vulnerability detection, threat detection, and automated response.
+The implementation covered the complete setup of the Wazuh security monitoring platform, including the Wazuh Server, Indexer, Dashboard, and endpoint Agents. Windows 10 and Ubuntu 24.04 endpoints were onboarded, with Sysmon integrated to collect detailed endpoint activity and centralized telemetry for monitoring and investigation.
 
-The implementation covered the deployment and configuration of:
-
-Wazuh Server
-Wazuh Indexer
-Wazuh Dashboard
-Wazuh Agents
-Windows 10 Endpoint
-Ubuntu 24.04 Endpoint
-Sysmon for Windows
-Sysmon for Linux
-
-The Wazuh architecture was explored across its four primary components:
-
-Wazuh Agent → Collects endpoint telemetry
-Wazuh Server → Analyzes events and generates alerts
-Wazuh Indexer → Stores and indexes security data
-Wazuh Dashboard → Provides visualization and investigation capabilities
-
-Wazuh integrations with platforms and security tools such as Splunk, OpenSearch, VirusTotal, YARA, and Suricata were also explored.
+Key areas covered:
+- Wazuh Server, Indexer and Dashboard deployment
+- Windows and Linux endpoint onboarding
+- Wazuh Agent configuration
+- Windows Sysmon integration
+- Linux Sysmon integration
+- Centralized security telemetry collection
+- Wazuh archive and index configuration
+- Security event monitoring and investigation
+- SIEM/XDR capabilities and architecture
+- FIM and Active Response fundamentals
+- Integration capabilities with Splunk, OpenSearch, VirusTotal, YARA and Suricata
 
 ## 🖥️ Lab Setup:
+<img width="1536" height="1024" alt="Lab Setup" src="https://github.com/user-attachments/assets/cbfa1ad9-85f2-494f-8acf-ff461108bb26" />
 
+## 🧰 Tools Used:
+- VMware Workstation Pro
+- Ubuntu Server 24.04.4 – Wazuh Server
+- Windows 10 – Monitored Endpoint
+- Ubuntu 24.04.4 – Monitored Endpoint
+- Wazuh Agent
+- Wazuh Server
+- Wazuh Indexer
+- Wazuh Dashboard
+- Microsoft Sysmon for Windows
+- Sysmon for Linux
 
-### 🧰 Tools Used:
-VMware Workstation Pro
-Ubuntu Server 24.04.4 – Wazuh Server
-Windows 10 – Monitored Endpoint
-Ubuntu 24.04.4 – Monitored Endpoint
-Wazuh Agent
-Wazuh Server
-Wazuh Indexer
-Wazuh Dashboard
-Microsoft Sysmon for Windows
-Sysmon for Linux
+## 🛡️ Skill Developed:
+- Wazuh SIEM/XDR architecture
+- Wazuh platform deployment and configuration
+- Windows and Linux endpoint onboarding
+- Security telemetry collection
+- Windows Event Log monitoring
+- Linux log monitoring
+- Sysmon deployment and configuration
+- Endpoint visibility and monitoring
+- File Integrity Monitoring fundamentals
+- Active Response fundamentals
+- Log indexing and searching
+- Security dashboard configuration
+- Security event investigation
 
-🛡️ Skill Developed:
-Wazuh SIEM/XDR architecture
-Wazuh platform deployment and configuration
-Windows and Linux endpoint onboarding
-Security telemetry collection
-Windows Event Log monitoring
-Linux log monitoring
-Sysmon deployment and configuration
-Endpoint visibility and monitoring
-File Integrity Monitoring fundamentals
-Active Response fundamentals
-Log indexing and searching
-Security dashboard configuration
-Security event investigation
+## 📁 Key Deliverables:
+- Deployed Wazuh Server, Indexer and Dashboard
+- Configured Wazuh archive collection
+- Created and configured the wazuh-archives index
+- Successfully onboarded Windows 10 endpoint
+- Successfully onboarded Ubuntu Linux endpoint
+- Installed and configured Sysmon for Windows
+- Installed and configured Sysmon for Linux
+- Integrated Windows Sysmon events with Wazuh
+- Integrated Linux Sysmon events with Wazuh
+- Verified centralized telemetry collection through Wazuh Discover
+- Established centralized endpoint security visibility
 
-📁 Key Deliverables:
-Deployed Wazuh Server, Indexer and Dashboard
-Configured Wazuh archive collection
-Created and configured the wazuh-archives index
-Successfully onboarded Windows 10 endpoint
-Successfully onboarded Ubuntu Linux endpoint
-Installed and configured Sysmon for Windows
-Installed and configured Sysmon for Linux
-Integrated Windows Sysmon events with Wazuh
-Integrated Linux Sysmon events with Wazuh
-Verified centralized telemetry collection through Wazuh Discover
-Established centralized endpoint security visibility
+## 🔍 Steps Performed:
 
-🔍 Steps Performed:
-1. Wazuh Architecture & Security Capabilities
-Reviewed the architecture and functionality of Wazuh.
-Studied the roles of the Agent, Server, Indexer and Dashboard.
-Reviewed Wazuh SIEM/XDR capabilities.
-Explored File Integrity Monitoring and Active Response.
-Reviewed integrations with external security and threat intelligence platforms.
-2. Infrastructure Preparation
-Installed VMware Workstation Pro.
-Deployed Ubuntu Server 24.04.4.
-Created Windows 10 and Ubuntu endpoint virtual machines.
-Installed VMware Tools.
-Created VM snapshots for recovery and rollback.
-3. Wazuh Platform Deployment
+### 1. Infrastructure Preparation
+- Installed VMware Workstation Pro.
+- Deployed Ubuntu Server 24.04.4.
+- Created Windows 10 and Ubuntu endpoint virtual machines.
+- Installed VMware Tools.
+- Created VM snapshots for recovery and rollback.
 
-Installed Wazuh using the official installation script:
-
+### 2. Wazuh Platform Deployment
+- Installed Wazuh using the official installation script:
+```KQL Query:
 curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+```
+- Configured and accessed the Wazuh Dashboard following the successful installation.
 
-Configured and accessed the Wazuh Dashboard following the successful installation.
-
-4. Wazuh Credential Management
+3. Wazuh Credential Management
 Located the generated Wazuh installation files.
 Extracted wazuh-install-files.tar.
 Accessed wazuh-passwords.txt.
