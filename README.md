@@ -122,8 +122,8 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/95be5bf2-9f0c-4ef9-9bba-2fc2bdb2accc" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/c95fc332-c320-48b6-8269-db9399f69d9d" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/f8bd5dac-8f8c-4461-88c9-e79d53f5e83f" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/966d1e05-2b52-4071-8b55-a557eaa0b229" />
-<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/d11086df-c55c-4e46-9518-6c6484e77eaa" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/966d1e05-2b52-4071-8b55-a557eaa0b229" />
+<img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/d11086df-c55c-4e46-9518-6c6484e77eaa" />
 
 ### 5. Wazuh Archives Index
 - Created the wazuh-archives index pattern through the Wazuh Dashboard.
