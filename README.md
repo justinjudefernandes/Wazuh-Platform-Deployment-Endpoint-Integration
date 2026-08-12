@@ -12,12 +12,6 @@ Key areas covered:
 - Wazuh Agent configuration
 - Windows Sysmon integration
 - Linux Sysmon integration
-- Centralized security telemetry collection
-- Wazuh archive and index configuration
-- Security event monitoring and investigation
-- SIEM/XDR capabilities and architecture
-- FIM and Active Response fundamentals
-- Integration capabilities with Splunk, OpenSearch, VirusTotal, YARA and Suricata
 
 ## 🖥️ Lab Setup:
 <img width="785" height="450" alt="Lab Setup" src="https://github.com/user-attachments/assets/9044cc9f-6b50-4366-94a5-ed68fdccafed" />
