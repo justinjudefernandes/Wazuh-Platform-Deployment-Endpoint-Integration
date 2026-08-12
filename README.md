@@ -20,7 +20,9 @@ Key areas covered:
 - Integration capabilities with Splunk, OpenSearch, VirusTotal, YARA and Suricata
 
 ## 🖥️ Lab Setup:
-<img width="1536" height="1024" alt="Lab Setup" src="https://github.com/user-attachments/assets/cbfa1ad9-85f2-494f-8acf-ff461108bb26" />
+<img width="1536" height="1024" alt="Lab Setup" src="https://github.com/user-attachments/assets/9044cc9f-6b50-4366-94a5-ed68fdccafed" />
+<img width="974" height="355" alt="image" src="https://github.com/user-attachments/assets/158dae1d-297f-4f66-a3c1-0cfd1481b748" />
+<img width="974" height="355" alt="image" src="https://github.com/user-attachments/assets/cfe4a396-3ba3-430a-a280-ab46c1f694d0" />
 
 ## 🧰 Tools Used:
 - VMware Workstation Pro
