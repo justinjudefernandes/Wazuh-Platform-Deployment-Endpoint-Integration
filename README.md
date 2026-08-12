@@ -36,12 +36,6 @@ Key areas covered:
 - Windows Event Log monitoring
 - Linux log monitoring
 - Sysmon deployment and configuration
-- Endpoint visibility and monitoring
-- File Integrity Monitoring fundamentals
-- Active Response fundamentals
-- Log indexing and searching
-- Security dashboard configuration
-- Security event investigation
 
 ## 📁 Key Deliverables:
 - Deployed Wazuh Server, Indexer and Dashboard
