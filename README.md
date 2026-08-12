@@ -1,4 +1,4 @@
-# Wazuh SIEM XDR Deployment and Endpoint Integration
+# Wazuh Platform Deployment & Endpoint Integration
 
 ## 🎯 Objective:
 Build and configure a Wazuh-based security monitoring environment to understand its SIEM/XDR architecture and establish centralized visibility across Windows and Linux systems. The objective was to deploy the Wazuh platform, onboard endpoints, and integrate Sysmon to enhance security telemetry and endpoint monitoring.
