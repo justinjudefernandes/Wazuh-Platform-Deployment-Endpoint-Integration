@@ -1,9 +1,9 @@
 # Wazuh SIEM XDR Deployment and Endpoint Integration
 
-🎯 Objective:
+## 🎯 Objective:
 Deploy and configure a Wazuh SIEM/XDR platform and establish centralized security monitoring across Windows and Linux endpoints. The project focused on understanding the Wazuh architecture, deploying the core platform, onboarding endpoints, enabling telemetry collection, and integrating Sysmon for enhanced endpoint visibility.
 
-📊 Project Overview:
+## 📊 Project Overview:
 Wazuh is an open-source security platform providing SIEM and XDR capabilities, including endpoint monitoring, File Integrity Monitoring (FIM), vulnerability detection, threat detection, and automated response.
 
 The implementation covered the deployment and configuration of:
@@ -26,7 +26,10 @@ Wazuh Dashboard → Provides visualization and investigation capabilities
 
 Wazuh integrations with platforms and security tools such as Splunk, OpenSearch, VirusTotal, YARA, and Suricata were also explored.
 
-🖥️ Lab Setup:
+## 🖥️ Lab Setup:
+
+
+### 🧰 Tools Used:
 VMware Workstation Pro
 Ubuntu Server 24.04.4 – Wazuh Server
 Windows 10 – Monitored Endpoint
