@@ -97,7 +97,7 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 - Accessed wazuh-passwords.txt.
 - Verified the generated administrative credentials.
 
-📌 Refer to the below screenshots:
+📌 Refer to the below screenshot:
 
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/e5c540e6-99bf-40c1-a2d6-e957be6b6575" />
 
@@ -148,12 +148,31 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 - Started the Wazuh Agent service.
 - Verified successful endpoint registration in the Wazuh Dashboard.
 
+📌 Refer to the below screenshots: (left to right)
+
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/0332bfc1-b1cc-40fc-80eb-bc0d1cfbf6b3" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/9cbbc654-8bb5-4902-94cb-72e42e3e473a" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/a0db8c9b-8bff-4c30-85a0-63b5a167c793" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/20eedef3-f553-4a2e-8cb6-2e1f5425d7d2" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/31b48a42-8e18-4895-913f-6871b3b5b3ef" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/aba4d42f-37ea-45a5-862b-120bacf6e678" />
+
+
 ### 7. Linux Endpoint Integration
 - Deployed the Wazuh Agent on Ubuntu 24.04.4.
 - Configured the Wazuh Server IP and endpoint name.
 - Installed the DEB AMD64 agent package.
 - Started the Wazuh Agent service.
 - Verified successful Linux endpoint registration.
+
+📌 Refer to the below screenshots: (left to right)
+
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/47d3fc28-0ead-4c8b-97c0-de93e30c09ea" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/3a05e364-fa07-4d38-b4d8-5f5cdd0903c7" />
+<img width="332" height="230" alt="image" src="https://github.com/user-attachments/assets/be7ade1d-05ae-4b46-a9a3-c28f06dbfafe" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/9bba7970-4db4-402f-8568-c46c7ab7e3fb" />
+<img width="500" height="230" alt="image" src="https://github.com/user-attachments/assets/ba01eb2e-3d37-4713-8ea1-bef0b480e6e7" />
+
 
 ### 8. Sysmon for Windows
 - Downloaded Microsoft Sysmon.
