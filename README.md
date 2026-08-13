@@ -13,7 +13,7 @@ Key areas covered:
 - Windows Sysmon integration
 - Linux Sysmon integration
 
-## 🖥️ Lab Setup:
+## 🏗️ Infrastructure Deployment:
 <img width="785" height="450" alt="Lab Setup" src="https://github.com/user-attachments/assets/9044cc9f-6b50-4366-94a5-ed68fdccafed" />
 
 ## 🧰 Tools Used:
@@ -28,7 +28,7 @@ Key areas covered:
 - Microsoft Sysmon for Windows
 - Sysmon for Linux
 
-## 🛡️ Skill Developed:
+## 🛠️ Capabilities Demonstrated
 - Wazuh SIEM/XDR architecture
 - Wazuh platform deployment and configuration
 - Windows and Linux endpoint onboarding
@@ -201,7 +201,6 @@ Microsoft-Windows-Sysmon/Operational
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/f97ed59c-59fb-4c8c-b2fb-b3a59888845a" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/2f9b3f1e-8910-45e2-8433-d2557ac53512" />
 <img width="390" height="230" alt="image" src="https://github.com/user-attachments/assets/30c38c76-6a21-4025-8396-ab1c2a5f4354" />
-
 
 ### 10. Sysmon for Linux
 - Installed Sysmon for Linux.
