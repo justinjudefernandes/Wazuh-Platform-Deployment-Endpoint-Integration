@@ -1,17 +1,10 @@
 # Wazuh Platform Deployment & Endpoint Integration
 
 ## 🎯 Objective:
-Deploy and configure the Wazuh security monitoring platform to establish centralized security visibility across Windows and Linux endpoints. The objective was to understand the Wazuh SIEM architecture, successfully deploy the Wazuh platform, integrate endpoints, and configure Sysmon to enhance endpoint telemetry, event collection, and security monitoring.
+Deploy and configure the Wazuh security monitoring platform to establish centralized security visibility across Windows and Linux endpoints. The implementation covers Wazuh Server, Indexer, Dashboard, endpoint agents, Sysmon integration, telemetry collection, and centralized event analysis.
 
 ## 📊 Project Overview:
-The implementation covered the complete setup of the Wazuh security monitoring platform, including the Wazuh Server, Indexer, Dashboard, and endpoint Agents. Windows 10 and Ubuntu 24.04 endpoints were onboarded, with Sysmon integrated to collect detailed endpoint activity and centralized telemetry for monitoring and investigation.
-
-Key areas covered:
-- Wazuh Server, Indexer and Dashboard deployment
-- Windows and Linux endpoint onboarding
-- Wazuh Agent configuration
-- Windows Sysmon integration
-- Linux Sysmon integration
+Deployed and configured the Wazuh security monitoring stack, including Wazuh Server, Indexer, Dashboard, and endpoint Agents. Windows 10 and Ubuntu Linux endpoints were onboarded, with Sysmon integrated to collect detailed endpoint activity and centralized security telemetry for monitoring and investigation.
 
 ## 🏗️ Infrastructure Deployment:
 <img width="785" height="450" alt="Lab Setup" src="https://github.com/user-attachments/assets/9044cc9f-6b50-4366-94a5-ed68fdccafed" />
@@ -29,13 +22,15 @@ Key areas covered:
 - Sysmon for Linux
 
 ## 🛠️ Capabilities Demonstrated
-- Wazuh SIEM/XDR architecture
-- Wazuh platform deployment and configuration
+- Wazuh SIEM/XDR architecture and platform deployment
+- Wazuh Server, Indexer, and Dashboard administration
 - Windows and Linux endpoint onboarding
-- Security telemetry collection
-- Windows Event Log monitoring
-- Linux log monitoring
+- Wazuh Agent configuration
+- Security telemetry collection and centralized monitoring
+- Windows Event Log analysis
+- Linux authentication and system log monitoring
 - Sysmon deployment and configuration
+- Endpoint telemetry integration and validation
 
 ## 📁 Key Deliverables:
 - Deployed Wazuh Server, Indexer and Dashboard
@@ -164,7 +159,7 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 ### 8. Sysmon for Windows
 - Downloaded Microsoft Sysmon.
-- Obtained and configured a Sysmon configuration file. (Olaf’s 'sysmonconfig.xml' file)
+- Configured Sysmon using Olaf Hartong's sysmonconfig.xml configuration to improve Windows endpoint telemetry coverage.
 - Installed Sysmon using an elevated PowerShell session.
 - Verified the Sysmon service was running.
 
