@@ -159,7 +159,7 @@ curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-i
 
 ### 8. Sysmon for Windows
 - Downloaded Microsoft Sysmon.
-- Configured Sysmon using Olaf Hartong's sysmonconfig.xml configuration to improve Windows endpoint telemetry coverage.
+- Configured Sysmon using Olaf Hartong's ```sysmonconfig.xml``` configuration to improve Windows endpoint telemetry coverage.
 - Installed Sysmon using an elevated PowerShell session.
 - Verified the Sysmon service was running.
 
